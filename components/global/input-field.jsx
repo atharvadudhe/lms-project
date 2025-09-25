@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InputField = ({ label, type = 'text', value, onChange, placeholder, error, name }) => (
+const Input = ({ label, type = 'text', value, onChange, placeholder, error, name }) => (
   <div className="mb-4">
     <label className="block text-sm text-black font-medium mb-1" htmlFor={name}>{label}</label>
     <input
@@ -18,4 +18,4 @@ const InputField = ({ label, type = 'text', value, onChange, placeholder, error,
   </div>
 );
 
-export default InputField;
+export default Input;

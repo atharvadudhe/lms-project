@@ -1,6 +1,6 @@
 "use client";
-import Input from "../../components/UI/Input";
-import Button from "../../components/UI/Button";
+import Input from "../../components/global/input-field";
+import Button from "../../components/global/button";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
